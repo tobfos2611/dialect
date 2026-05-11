@@ -15,7 +15,7 @@ profile = "black"
 
 [tool.ruff]
 line-length = 120
-builtins = ["_", "gettext"]
+builtins = ["_", "gettext", "pgettext"]
 
 [tool.pyright]
 reportMissingModuleSource = false

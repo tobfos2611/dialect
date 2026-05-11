@@ -12,7 +12,7 @@ from dialect.define import LANGUAGES
 def get_lang_name(code: str) -> str | None:
     name = LANGUAGES.get(code)
     if name:
-        name = gettext(name)
+        name = pgettext(code, name)
     return name
 
 
